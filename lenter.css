@@ -1,0 +1,680 @@
+/*
+    Dragon Ocean (c) 2023
+
+    Project name:lenter
+
+    File name:lenter.css
+
+    Version: 0.1.0
+
+    Apache-2.0 license
+*/
+
+html,body{
+    /*浅色*/
+    background-color: white;
+    /*基准字号*/
+    font-size: 18px;
+    /*基准字体*/
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    height: 100%;
+}
+
+
+/*Title*/
+
+/*new*/
+h{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h,h1,h2,h3,h4,h5,h6,h1disbold,h2disbold,h3disbold,h4disbold,h5disbold,h6disbold{
+    margin: 0px;
+
+    padding: 0px;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 34px;
+}
+
+h3{
+    font-size: 32px;
+}
+
+h4{
+    font-size: 30px;
+}
+
+h5{
+    font-size: 28px;
+}
+
+h6{
+    font-size: 26px;
+}
+
+hdisbold{
+    font-size: 50px;
+}
+
+h1disbold{
+    font-size: 36px;
+}
+
+h2disbold{
+    font-size: 34px;
+}
+
+h3disbold{
+    font-size: 32px;
+}
+
+h4disbold{
+    font-size: 30px;
+}
+
+h5disbold{
+    font-size: 28px;
+}
+
+h6disbold{
+    font-size: 26px;
+}
+
+/*p*/
+
+p{
+    font-size: 18px;
+}
+
+/*button*/
+
+.radius{
+    border-radius: 5px;
+}
+
+button{
+    transition: all 0.1s;
+    color: black;
+    background-color: rgb(243, 243, 243);
+    border: none;
+    padding: 25px 50px;
+    cursor: pointer;
+}
+
+button:hover{
+    transition: all 0.3s;
+    background-color: rgb(224, 224, 224);
+    cursor: pointer;
+}
+
+button:active{
+    transition: all 0.1s;
+    background-color: rgb(201, 201, 201);
+    cursor: pointer;
+}
+
+
+.btn-pri{
+    transition: all 0.1s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(21, 115, 255);
+    border: none;
+    padding: 25px 50px;
+    cursor: pointer;
+}
+
+.btn-pri:hover{
+    transition: all 0.3s;
+    background-color: rgb(21, 104, 227);
+    cursor: pointer;
+}
+
+.btn-pri:active{
+    transition: all 0.1s;
+    background-color: rgb(19, 95, 209);
+    cursor: pointer;
+}
+
+.btn-succ{
+    transition: all 0.1s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 191, 13);
+    border: none;
+    padding: 25px 50px;
+    cursor: pointer;
+}
+
+.btn-succ:hover{
+    transition: all 0.3s;
+    background-color: rgb(36, 172, 12);
+    cursor: pointer;
+}
+
+.btn-succ:active{
+    transition: all 0.1s;
+    background-color: rgb(29, 141, 9);
+    cursor: pointer;
+}
+
+.btn-err{
+    transition: all 0.1s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(207, 18, 18);
+    border: none;
+    padding: 25px 50px;
+    cursor: pointer;
+}
+
+.btn-err:hover{
+    transition: all 0.3s;
+    background-color: rgb(188, 16, 16);
+    cursor: pointer;
+}
+
+.btn-err:active{
+    transition: all 0.1s;
+    background-color: rgb(139, 13, 13);
+    cursor: pointer;
+}
+
+.btn-warn{
+    transition: all 0.1s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(244, 231, 0);
+    border: none;
+    padding: 25px 50px;
+    cursor: pointer;
+}
+
+.btn-warn:hover{
+    transition: all 0.3s;
+    background-color: rgb(210, 200, 1);
+    cursor: pointer;
+}
+
+.btn-warn:active{
+    transition: all 0.1s;
+    background-color: rgb(166, 158, 0);
+    cursor: pointer;
+}
+
+/*input*/
+
+.input-classic{
+    transition: all 0.3s;
+    padding: 10px;
+    width: 300px; 
+    border: none;
+    border-radius: 5px;
+    border-bottom: solid 1px rgb(232, 232, 232);
+}
+
+.input-classic:hover{
+    transition: all 0.3s;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+.input-pri{
+    transition: all 0.3s;
+    padding: 10px;
+    width: 300px; 
+    border: none;
+    border-radius: 5px;
+    border-bottom: solid 1px rgb(169, 208, 255);
+}
+
+.input-pri:hover{
+    transition: all 0.3s;
+    border: solid 1px;
+    border-color: rgb(0, 115, 255);
+    border-radius: 5px;
+}
+
+.input-succ{
+    transition: all 0.3s;
+    padding: 10px;
+    width: 300px; 
+    border: none;
+    border-radius: 5px;
+    border-bottom: solid 1px rgb(198, 255, 169);
+}
+
+.input-succ:hover{
+    transition: all 0.3s;
+    border: solid 1px;
+    border-color: rgb(30, 255, 0);
+    border-radius: 5px;
+}
+
+.input-err{
+    transition: all 0.3s;
+    padding: 10px;
+    width: 300px; 
+    border: none;
+    border-radius: 5px;
+    border-bottom: solid 1px rgb(255, 169, 169);
+}
+
+.input-err:hover{
+    transition: all 0.3s;
+    border: solid 1px;
+    border-color: rgb(255, 0, 0);
+    border-radius: 5px;
+}
+
+.input-warn{
+    transition: all 0.3s;
+    padding: 10px;
+    width: 300px; 
+    border: none;
+    border-radius: 5px;
+    border-bottom: solid 1px rgb(255, 255, 62);
+}
+
+.input-warn:hover{
+    transition: all 0.3s;
+    border: solid 1px;
+    border-color: rgb(255, 238, 0);
+    border-radius: 5px;
+}
+
+input{
+    outline: none;
+}
+
+
+/*nav*/
+
+.nav-classic{
+    height:15%;
+    margin: 0;
+    display: block;
+    background-color: rgb(238, 238, 238);
+
+}
+
+.nav-pri{
+    height:15%;
+    margin: 0;
+    display: block;
+    background-color: rgb(40, 79, 255);
+}
+
+.nav-succ{
+    height:15%;
+    margin: 0;
+    display: block;
+    background-color: rgb(62, 213, 32);
+}
+
+.nav-err{
+    height:15%;
+    margin: 0;
+    display: block;
+    background-color: rgb(230, 31, 31);
+}
+
+.nav-warn{
+    height:15%;
+    margin: 0;
+    display: block;
+    background-color: rgb(255, 216, 40);
+}
+
+
+
+/*li*/
+
+.nav-classic li{
+    transition: all 0.1s;
+    padding: 3.5% 3.5%;
+    display: inline flex;
+    height: 20%;  
+}
+
+.nav-classic li:hover{
+    transition: all 0.3s;
+    background-color: rgb(216, 216, 216);
+}
+
+.nav-classic li:active{
+    transition: all 0.1s;
+    background-color: rgb(168, 168, 168);
+}
+
+.nav-pri li{
+    transition: all 0.1s;
+    padding: 3.5% 3.5%;
+    display: inline flex;
+    height: 20%;  
+}
+
+.nav-pri li:hover{
+    transition: all 0.3s;
+    background-color: rgb(34, 66, 207);
+}
+
+.nav-pri li:active{
+    transition: all 0.1s;
+    background-color: rgb(27, 55, 177);
+}
+
+.nav-succ li{
+    transition: all 0.1s;
+    padding: 3.5% 3.5%;
+    display: inline flex;
+    height: 20%;  
+}
+
+.nav-succ li:hover{
+    transition: all 0.3s;
+    background-color: rgb(54, 188, 27);
+}
+
+.nav-succ li:active{
+    transition: all 0.1s;
+    background-color: rgb(47, 162, 24);
+}
+
+.nav-err li{
+    transition: all 0.1s;
+    padding: 3.5% 3.5%;
+    display: inline flex;
+    height: 20%;  
+}
+
+.nav-err li:hover{
+    transition: all 0.3s;
+    background-color: rgb(205, 28, 28);
+}
+
+.nav-err li:active{
+    transition: all 0.1s;
+    background-color: rgb(168, 22, 22);
+}
+
+
+.nav-warn li{
+    transition: all 0.1s;
+    padding: 3.5% 3.5%;
+    display: inline flex;
+    height: 20%;  
+}
+
+.nav-warn li:hover{
+    transition: all 0.3s;
+    background-color: rgb(217, 184, 35);
+}
+
+.nav-warn li:active{
+    transition: all 0.1s;
+    background-color: rgb(178, 151, 30);
+}
+
+
+
+/*a*/
+
+a{
+    text-decoration: none;
+    color: rgb(43, 43, 255);
+}
+
+.pria{
+    text-decoration: none;
+    color: rgb(34, 34, 255);
+}
+
+.succa{
+    text-decoration: none;
+    color: rgb(32, 204, 43);
+}
+
+.erra{
+    text-decoration: none;
+    color: rgb(249, 34, 34);
+}
+
+.warna{
+    text-decoration: none;
+    color: rgb(249, 231, 34);
+}
+
+.nav-classic a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-pri a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-succ a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-err a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-warn a{
+    text-decoration: none;
+    color: white;
+}
+
+/*div*/
+
+div{
+    word-wrap: break-word;
+}
+
+.divcom{
+    border: solid 1px black;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 25px;
+    width: auto;
+    float: left;
+}
+
+.divpri{
+    border: solid 1px rgb(40, 191, 255);
+    background-color: rgb(173, 219, 255);
+    color: rgb(0, 0, 0);
+    padding: 25px;
+    width: auto;
+    float: left;
+}
+
+.divsucc{
+    border: solid 1px rgb(45, 158, 22);
+    background-color: rgb(62, 213, 32);
+    color: white;
+    padding: 25px;
+    width: auto;
+    float: left;
+}
+
+.diverr{
+    border: solid 1px rgb(168, 22, 22);
+    background-color: rgb(249, 34, 34);
+    color: white;
+    padding: 25px;
+    width: auto;
+    float: left;
+}
+
+.divwarn{
+    border: solid 1px rgb(178, 151, 30);
+    background-color: rgb(255, 216, 40);
+    color: white;
+    padding: 25px;
+    width: auto;
+    float: left;
+}
+
+
+/*input radio*/
+label{
+    display: inline-block;
+    padding: 5px;
+}
+
+.radio_pri::before{
+    transition: all 0.1s;
+    position: relative;
+    background-color: white;
+    border: solid 1px rgb(29, 119, 255);
+    vertical-align: middle;
+    content: "";
+    border-radius: 100%;
+    margin-top: -5px;
+    margin-left: -1.5px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.radio_pri:checked::before{
+    transition: all 0.2s;
+    background-color: rgb(29, 119, 255);
+}
+
+.check_pri::before{
+    transition: all 0.1s;
+    position: relative;
+    background-color: white;
+    border: solid 1px rgb(29, 119, 255);
+    vertical-align: middle;
+    content: "";
+    border-radius: 100%;
+    margin-top: -5px;
+    margin-left: -1.5px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.check_pri:checked::before{
+    transition: all 0.2s;
+    background-color: rgb(29, 119, 255);
+}
+
+/*select*/
+.select_pri{
+    background-color: white;
+    border: solid 1px rgb(29, 119, 255);
+    border-radius: 0px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    width: 15%;
+    height: 3%;
+    outline: none;
+}
+
+/*table*/
+
+table{
+    border: solid 1px black;
+    padding: 10px;
+}
+
+.table-pri{
+    border: solid 1px rgb(29, 119, 255);
+    background-color:rgb(229, 239, 255);
+    padding: 10px;
+}
+
+.table-succ{
+    border: solid 1px rgb(32, 204, 43);
+    background-color:rgb(224, 255, 226);
+    padding: 10px;
+}
+
+.table-err{
+    border: solid 1px rgb(249, 34, 34);
+    background-color:rgb(255, 222, 222);
+    padding: 10px;
+}
+
+.table-warn{
+    border: solid 1px rgb(255, 216, 40);
+    background-color:rgb(255, 250, 229);
+    padding: 10px;
+}
+
+/*td*/
+
+table td{
+    padding: 10px;
+    border-bottom: solid 1px black;
+}
+
+.table-pri td{
+    padding: 10px;
+    border-bottom: none;
+}
+
+.table-succ td{
+    padding: 10px;
+    border-bottom: none;
+}
+
+.table-err td{
+    padding: 10px;
+    border-bottom: none;
+}
+.table-warn td{
+    padding: 10px;
+    border-bottom: none;
+}
+
+/*tr*/
+
+table tr:first-child{
+    padding: 10px;
+    border-bottom: solid 1px black;
+    font-weight: bold;
+}
+
+.table-pri tr:first-child{
+    padding: 10px;
+    background-color:rgb(155, 195, 255);
+    font-weight: bold;
+}
+
+.table-succ tr:first-child{
+    padding: 10px;
+    background-color:rgb(171, 255, 177);
+    font-weight: bold;
+}
+
+.table-err tr:first-child{
+    padding: 10px;
+    background-color: rgb(255, 181, 181);
+    font-weight: bold;
+}
+
+.table-warn tr:first-child{
+    padding: 10px;
+    background-color: rgb(255, 235, 144);
+    font-weight: bold;
+}
